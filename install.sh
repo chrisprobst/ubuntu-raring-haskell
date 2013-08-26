@@ -1,14 +1,7 @@
 #!/bin/bash
 
 # Install needed developer libraries
-sudo apt-get install libgmp-dev
-sudo apt-get install zlib1g-dev
-sudo apt-get install libgl1-mesa-dev
-sudo apt-get install libglc-dev
-sudo apt-get install freeglut3-dev
-sudo apt-get install libedit-dev
-sudo apt-get install libglw1-mesa-dev
-sudo apt-get install libglw1-mesa
+sudo apt-get install libgmp-dev zlib1g-dev libgl1-mesa-dev libglc-dev freeglut3-dev libedit-dev libglw1-mesa-dev libglw1-mesa
 
 # Remove old tmp folder
 sudo rm -r tmp
